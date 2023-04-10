@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.navBar{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    position: relative;
+    float: right;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    line-height: 80px;
+}
+.navbarlist{
+    text-decoration: none;
+    padding-left: 120px;
+    list-style-type: none;
+}
+.searchNav{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+.navBar span{
+    font-size: 50px;
+    font-weight:900;
+}
+.navbarlist b:hover{
+    cursor: pointer;
+    color: brown;
+}
+.slider{
+    height: 500px;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    left: 580px;
+    margin-top: 100px;
+    margin: auto;
+    border-radius: 20px;
+    top: 300px;
+    transform: translate(-50%,-50%);
+}
+.slide-content{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    animation: slide 16s infinite;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 5s;
+    object-fit: cover;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+    
+}
+
+.seller span{
+    font-size: 30px;
+    font-weight: 600;
+    color: #021C5C;
+    position: relative;
+    top: 80px;
+}
+.seller{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.back{
+    background: rgba(239, 249, 254, 0.84);
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 150px;
+    padding: 12px;
+    right: 50px;
+    animation: slide 5s linear;
+}
+.card{
+    width: 203px;
+    margin-left: 100px;
+}
+.cards-T{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.cards-R{
+    display: flex;
+    justify-content: center;
+    color: #021C5C;
+    font-family: poppins;
+    font-weight: 600;
+}
+.card img{
+    height: 250px;
+    width: 200px;
+    position: relative;
+}
+.card1{
+    width: 100%;
+}
